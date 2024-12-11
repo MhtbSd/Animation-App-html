@@ -1,0 +1,316 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../Font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../Font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppinss-SemiBold;
+    src: url(../Font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../Font/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Betterworks;
+    src: url(../Font/Betterworks.otf)
+}
+
+body {
+    background-color: #0E0E0E;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/****** MENU ******/
+.menu {
+    position: relative;
+}
+
+.menu .logo {
+    font-family: Betterworks;
+    color: #FABC11;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.menu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul .li {
+    width: 75px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #F4F2F2;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: Poppins-medium;
+}
+
+.menu ul .li-home {
+    color: #FABC11;
+    width: 60px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: Poppins-Bold;
+}
+
+.menu .btn-sign {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: #0E0E0E;
+    background-color: #FABC11;
+    cursor: pointer;
+    font-family: Poppins-Regular;
+    font-size: 14px;
+}
+
+.menu .search {
+    width: 40px;
+    height: 40px;
+    background-color: #F4F2F2;
+    position: absolute;
+    right: 140px;
+    top: 17px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.menu .search .icon-search {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+
+/****** END MENU ******/
+
+/***** POSTER 1 *****/
+.poster1 .img1 {
+    margin: 10px;
+    height: 570px;
+    width: 1120px;
+    left: 0px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.poster1 .title1 {
+    position: absolute;
+    top: 380px;
+    color: #F4F2F2;
+    font-family: Poppins-Bold;
+    font-size: 24px;
+    left: 50px;
+    width: 250px;
+}
+
+.poster1 .para1 {
+    position: absolute;
+    top: 430px;
+    color: #c3c3c3ab;
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    left: 50px;
+    width: 410px;
+}
+
+.poster1 .info1 {
+    position: absolute;
+    top: 505px;
+    color: #c3c3c3ab;
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    left: 50px;
+    width: 410px;
+}
+
+.poster1 .btn-watch {
+    width: 130px;
+    height: 38px;
+    position: absolute;
+    left: 60px;
+    top: 550px;
+    border: none;
+    border-radius: 10px;
+    color: #FABC11;
+    border: 3px solid #FABC11;
+    background-color: rgba(245, 222, 179, 0);
+    cursor: pointer;
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    box-shadow: 2px 2px 2px #fabc115a;
+}
+
+.poster1 .IMDB {
+    width: 120px;
+    height: 38px;
+    position: absolute;
+    left: 220px;
+    top: 550px;
+    border-radius: 40px;
+    color: #F4F2F2;
+    border: 3px solid #c6c2c2a4;
+    background-color: rgba(245, 222, 179, 0.385);
+    cursor: pointer;
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    box-shadow: 2px 2px 2px #f4f2f248;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/***** END POSTER 1 *****/
+
+/***** POSTER 2 *****/
+.poster2 {
+    height: 260px;
+    margin: 10px;
+    position: relative;
+}
+
+.poster2 .img2 {
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    left: 0px;
+    border-radius: 20px;
+}
+
+.poster2 .title2 {
+    position: absolute;
+    color: #323232;
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    top: 200px;
+    left: 20px;
+}
+
+.poster2 .para2 {
+    position: absolute;
+    color: #4d4949;
+    font-family: Poppins-Regulaar;
+    font-size: 12px;
+    top: 220px;
+    left: 20px;
+}
+
+.poster2 .btn1 {
+    width: 65px;
+    height: 65px;
+    background-color: #0E0E0E;
+    position: absolute;
+    top: 201px;
+    left: 301px;
+    border-radius: 10px;
+}
+
+.poster2 .btn1 .btn-next1 {
+    width: 52px;
+    height: 52px;
+    background-color: #FABC11;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border-radius: 10px;
+}
+
+.poster2 .btn1 .btn-next1 .icon-next1 {
+    color: #0E0E0E;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/***** END POSTER 2 *****/
+
+/***** POSTER 3 *****/
+.poster3 {
+    height: 260px;
+    margin: 10px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.poster3 .img3 {
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    left: 0px;
+    border-radius: 20px;
+}
+
+.poster3 .title3 {
+    position: absolute;
+    color: #323232;
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    top: 200px;
+    left: 20px;
+}
+
+.poster3 .para3 {
+    position: absolute;
+    color: #4d4949;
+    font-family: Poppins-Regulaar;
+    font-size: 12px;
+    top: 220px;
+    left: 20px;
+}
+
+.poster3 .btn2 {
+    width: 65px;
+    height: 65px;
+    background-color: #0E0E0E;
+    position: absolute;
+    top: 201px;
+    left: 301px;
+    border-radius: 10px;
+}
+
+.poster3 .btn2 .btn-next2 {
+    width: 52px;
+    height: 52px;
+    background-color: #FABC11;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border-radius: 10px;
+}
+
+.poster3 .btn2 .btn-next2 .icon-next2 {
+    color: #0E0E0E;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/***** END POSTER 3 *****/
